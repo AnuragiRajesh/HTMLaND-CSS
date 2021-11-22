@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
 
+:root{
+    --primary-color: red;
+}
+
 body {
     font-family: 'Playfair Display', serif;
 font-family: 'PT Serif', serif;
@@ -13,4 +17,10 @@ font-family: 'PT Serif', serif;
 .container-center {
     max-width: 600px;
     margin: auto
+}
+
+/* Links */
+
+.primary-link {
+    color: var(--primary-color)
 }
