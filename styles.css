@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
 
 :root{
-    --primary-color: red;
+    --primary-color: blue;
 }
 
 body {
     font-family: 'Playfair Display', serif;
 font-family: 'PT Serif', serif;
+}
+hr {
+    margin: 2rem 0rem;
 }
 /** container **/
 .container {
@@ -20,7 +23,22 @@ font-family: 'PT Serif', serif;
 }
 
 /* Links */
+.link{
+    text-decoration: none;
+    padding:0.5rem 1rem
+}
 
-.primary-link {
-    color: var(--primary-color)
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white
+}
+
+
+.link-secondary {
+    
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color)
 }
